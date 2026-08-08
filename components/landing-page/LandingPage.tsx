@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 
 import { HeroSection } from "@/components/landing-page/HeroSection";
 import { Navbar } from "@/components/common/navbar/Navbar";
+import {AboutSection} from '@/components/landing-page/aboutMeSection'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -27,6 +28,7 @@ export function LandingPage() {
     >
       <Navbar/>
       <HeroSection />
+      <AboutSection/>
 
     </motion.div>
   );
