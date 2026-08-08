@@ -34,6 +34,7 @@ const statsData = [
 export function HeroSection() {
   return (
     <section
+      id="home"
       className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0D1117]"
       style={{ width: "100vw", marginLeft: "calc(50% - 50vw)" }}
     >
