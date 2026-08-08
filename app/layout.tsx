@@ -12,12 +12,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "BINZO",
-  description: "Binzo Learning Management System Admin Panel",
+  title: "Hasalanka",
+  description: "Hasalanka Portfolio",
   icons: {
-    icon: "/mobile-logo.svg",
-    shortcut: "/mobile-logo.svg",
-    apple: "/mobile-logo.svg",
+    icon: "/hasalanka1.svg",
+    shortcut: "/hasalanka1.svg",
+    apple: "/hasalanka1.svg",
   },
 };
 
