@@ -18,18 +18,18 @@ export const personalAboutData: AboutData = {
     bio: "Results-driven Software Engineering Undergraduate with hands-on industry experience as a Full-Stack Developer Intern. Proficient in building scalable web applications using the MERN Stack, Next.js, and NestJS[cite: 1]. I specialize in modern backend architectures, secure JWT authentications, and bridging software with IoT hardware like ESP32[cite: 1].",
     cards: [
         {
+            title: "Industry Experience",
+            desc: "Full-Stack Software Engineering Intern",
+            institute: "Wise Soft Lab",
+            year: "Nov 2025 – April 2026",
+            badge: "Internship"
+        },
+        {
             title: "Education & Degree",
             desc: "B.Sc. (Hons) in Software Engineering",
             institute: "National Institute of Business Management (NIBM)",
             year: "Expected Graduation: 2027",
             badge: "Academic"
-        },
-        {
-            title: "Industry Experience",
-            desc: "Full-Stack Software Engineering Intern",
-            institute: "Wise Soft Lab",
-            year: "Nov 2025 – April 2026",
-            badge: "Internship[cite: 1]"
         },
         {
             title: "Full-Stack Tech Stack",
