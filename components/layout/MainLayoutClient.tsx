@@ -2,7 +2,7 @@
 
 import { useMemo } from "react";
 
-import Navbar from "@/components/common/navbar/Navbar";
+import { Navbar } from "@/components/common/navbar/Navbar";
 import LecturerNavbar from "@/components/common/navbar/LecturerNavbar";
 import ReferralNavbar from "@/components/common/navbar/ReferralNavbar";
 import Sidebar from "@/components/common/sidebar/Sidebar";
@@ -28,7 +28,7 @@ function getNavbarForRole(
     case "REFERRAL_AGENT":
       return <ReferralNavbar filteredSidebarData={filteredSidebarData} />;
     default:
-      return <Navbar filteredSidebarData={filteredSidebarData} />;
+      return <Navbar />;
   }
 }
 
